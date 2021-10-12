@@ -1,0 +1,68 @@
+:root {
+    --color1: black;
+    --color2: #ffffff;
+    --color3: yellowgreen;
+    background-color: var(--color1);
+   
+   
+}
+
+ 
+.grid {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: gray;
+    padding: 10px 50px 50px 50px;
+    
+    
+}
+ 
+.grid h1 {
+    font-family: "sans-serif";
+    background-color: var(--color1);
+    font-size: 60px;
+    text-align: center;
+    color: var(--color2);
+    padding: 2px 0px;
+    
+}
+
+#score {
+    color: var(--color1);
+    text-align: center;
+    font-size: 30px;
+}
+ 
+.grid #question{
+    font-family: "sans-serif";
+    background-color: var(--color2);
+    font-size: 30px;
+    text-align: center;
+    color: var(--color1);
+    padding: 2px 0px;
+}
+ 
+.buttons {
+    margin-top: 30px;
+}
+
+
+ 
+#startbtn, #btn0, #btn1, #btn2, #btn3 {
+    background-color: var(--color1);
+    width: 250px;
+    font-size: 20px;
+    color: var(--color2);
+    border: 5px solid var(--color2);
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px;
+}
+ 
+#startbtn:hover, #btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    
+    background-color: var(--color1);
+    border-color: var(--color3);
+    color: var(--color3);
+}
+ 
