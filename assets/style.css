@@ -65,4 +65,8 @@
     border-color: var(--color3);
     color: var(--color3);
 }
+
+#startbtn {
+    justify-content: center;
+}
  

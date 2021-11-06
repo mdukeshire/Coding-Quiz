@@ -73,10 +73,9 @@ function showScores() {
     gameOver += (initials + ":" + quiz.score);
     var element = document.getElementById("quiz");
     element.innerHTML = gameOver;
-   
 };
  
-// create questions here
+
 var questions = [
     new Question("Commonly used data types DO NOT include?", ["string", "boolean","alerts", "numbers"], "alerts"),
     new Question("The condition in an if/else statment is enclosed within ___.", ["quotes", "curly brackets", "parentheses", "square brackets"], "parentheses"),
@@ -85,8 +84,7 @@ var questions = [
     new Question("A very useful tool used during development and debugging for printing content to the debugger is:", ["JavaScript", "terminal/bash", "for loops", "console.log"], "console.log")
 ];
  
-// create quiz
 var quiz = new Quiz(questions);
  
-// display quiz
+
 populate();
